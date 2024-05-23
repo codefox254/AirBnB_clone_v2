@@ -7,7 +7,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-# Two blank lines before the function definition
+
 @app.route('/', strict_slashes=False)
 def index():
     """Display 'Hello HBNB!'"""
